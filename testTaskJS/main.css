@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('fonts/fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('fonts/fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('fonts/fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('fonts/fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('fonts/fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+    src: url('fonts/fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('fonts/fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('fonts/fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Gilroy-Medium';
+    background-color: #121212F7;
+}
+
+.task1, .task2, .task3 {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task1 h2, .task2 h2, .task3 h2 {
+    font-family: 'Gilroy-Bold';
+    color: white;
+}
+
+.task1 p, .task2 p, .task3 p {
+    color: white;
+}
+
+#span1 {
+    color: #ff5c01;
+}
+
+#p1 {
+    font-size: 1.2em;
+}
+
+button {
+    border: 0;
+    background-color: #bb86fc;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 25px;
+    padding: 5px;
+    width: 100px;
+    margin-bottom: 2%;
+}
+
+button:hover {
+    box-shadow: 0 0 12px #bb86fc;
+}
+
+hr {
+    border-radius: 35%;
+    margin-top: 1%;
+    width: 60%;
+    border: none;
+    background-color: #383838;
+    color: #383838;
+    height: 2px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.task2 span, .task3 span {
+    color: #ff453a;
+    font-size: 17px;
+    line-height: 17px;
+    margin-bottom: 1%;
+}
+
+#result3 {
+    margin-bottom: 3%;
+}
